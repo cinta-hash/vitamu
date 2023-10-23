@@ -6,7 +6,7 @@ export default function Header(){
             <img className="w-12 md:w-20 m-auto rounded-full" src="src/images/logo.jpeg" alt="vitamu-logo" />
             <h1 className="text-4xl font-serif font-extrabold p-2">vitamu</h1>
           </div>
-          <h1 className="text-xl md:text-3xl text-orange-600 p-4 space-x-4"><i class="fa-solid fa-phone"></i></h1>
+          <h1 className="text-xl md:text-3xl text-orange-600 p-4 space-x-4"><i class="fa-solid fa-phone"><span className="hidden md:inline text-lg p-2">call to order</span></i></h1>
           <div className="flex">
              <h1 className="md:text-3xl text-xl text-orange-600 p-4 font-bold"><i class="fa-solid fa-magnifying-glass"></i></h1>
              <div className="m-2 hidden md:inline-flex md:relative">
