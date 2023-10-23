@@ -5,11 +5,11 @@ import Section from "./Section"
 function App() {
   
   return (
-    <>
-       <Header/>
+    <div>
+       <Header className="bg-yellow-500"/>
        <Section />
        <Card />
-    </>
+    </div>
   
   )
 }
