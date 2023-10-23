@@ -5,8 +5,8 @@ import Section from "./Section"
 function App() {
   
   return (
-    <div>
-       <Header className="bg-yellow-500"/>
+    <div className="bg-yellow-500 h-screen">
+       <Header />
        <Section />
        <Card />
     </div>
