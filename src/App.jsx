@@ -4,12 +4,16 @@ import Section from "./Section"
 import Data from "./Data"
 
 function App() {
-  const cards = Data.map((items)=>{
+  const cards = Data.map((item)=>{
     return(
       <div>
          <Card 
-         key={items.id}
-         {...items}
+         key={item.id}
+         img={item.imageURL}
+         name={item.name}
+         description={item.description}
+         rating ={item.rating}
+         discount={item.discountApplies}
          />
       </div>
     )
