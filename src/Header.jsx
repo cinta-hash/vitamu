@@ -1,9 +1,9 @@
 export default function Header(){
     return (
-      <div className="w-full fixed left-0 top-0">
+      <div className="w-full fixed left-0 top-0 z-50">
         <div className="flex md:space-x-20 md:justify-center bg-white shadow-md shadow-amber-500">
           <div className="flex space-x-4 md:space-x-0">
-            <img className="w-12 md:w-20 m-auto rounded-full" src="src/images/logo.jpeg" alt="vitamu-logo" />
+            <img className="w-12 md:w-20 m-auto rounded-full" src="/logo.jpeg" alt="vitamu-logo" />
             <h1 className="text-4xl font-serif font-extrabold p-2">vitamu</h1>
           </div>
           <h1 className="text-xl md:text-3xl text-orange-600 p-4 space-x-4"><i class="fa-solid fa-phone"><span className="hidden md:inline text-lg p-2">call to order</span></i></h1>
