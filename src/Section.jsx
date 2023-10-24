@@ -2,7 +2,7 @@ export default function Section(){
     return (
   <div className="md:mt-20 mt-12 m-auto md:grid md:grid-cols-2"> 
     <div className="p-4">
-      <img src="./src/images/spicynoodles.png" alt="noodles"/>
+      <img src="/spicynoodles.png" alt="noodles"/>
     </div>
     <div className="flex-wrap inline-block m-auto text-center pl-6">
       <div className="block container p-10 m-auto">
