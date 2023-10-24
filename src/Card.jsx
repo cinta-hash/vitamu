@@ -1,6 +1,12 @@
-export default function Card(){
+
+export default function Card(props){
+  console.log(props)
      return (
-   <h1 className="text-3xl font-bold underline text-center">Hello World!</h1>
+   <div className="card container flex flex-col relative rounded-xl w-full bg-black bg-opacity-10 backdrop-blur-md">
+      <div>
+        <img src="" alt="burger" />
+      </div>
+   </div>
   )
 
 }

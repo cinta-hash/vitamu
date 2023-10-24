@@ -5,6 +5,8 @@ export default {
   theme: {
        fontFamily: {
       'serif': ['DM Serif Display', 'serif']},
+      container: {
+        center: true},
       screens: {
         'sm': '640px',
         'md': '768px',

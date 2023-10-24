@@ -1,11 +1,11 @@
-export default menu
+
     
-    const menu= [
+     export default[
       {
         "id": 1,
         "name": "Classic Burger",
         "description": "A juicy beef patty with fresh lettuce, tomatoes, and special sauce.",
-        "imageURL": "https://example.com/classic_burger.jpg",
+        "imageURL": "./src/images/burger.png",
         "rating": 4.5,
         "discountApplies": true
       },
@@ -82,5 +82,7 @@ export default menu
         "discountApplies": true
       }
     ]
+
+   
   
   
