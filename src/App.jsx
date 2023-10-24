@@ -9,11 +9,13 @@ function App() {
       <div>
          <Card 
          key={item.id}
-         img={item.imageURL}
-         name={item.name}
-         description={item.description}
-         rating ={item.rating}
-         discount={item.discountApplies}
+        //  img={item.imageURL}
+        //  name={item.name}
+        //  description={item.description}
+        //  price={item.price}
+        //  rating ={item.rating}
+        //  discount={item.discountApplies}
+        item={item}
          />
       </div>
     )

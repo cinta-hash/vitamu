@@ -7,7 +7,8 @@
         "description": "A juicy beef patty with fresh lettuce, tomatoes, and special sauce.",
         "imageURL": "src/images/burger.png",
         "rating": 4.5,
-        "discountApplies": true
+        "discountApplies": true,
+        "price": 19
       },
       {
         "id": 2,
@@ -15,7 +16,8 @@
         "description": "Traditional pizza with tomato sauce, fresh mozzarella, and basil.",
         "imageURL": "src/images/chowmein.png",
         "rating": 4.2,
-        "discountApplies": false
+        "discountApplies": false,
+        "price": 20
       },
       {
         "id": 3,
@@ -23,7 +25,8 @@
         "description": "Creamy Alfredo sauce with grilled chicken over fettuccine pasta.",
         "imageURL": "src/images/crispy-sandwich.png",
         "rating": 4.8,
-        "discountApplies": true
+        "discountApplies": true,
+        "price": 30
       },
       {
         "id": 4,
@@ -31,15 +34,17 @@
         "description": "Avocado, cucumber, and carrot rolled in seasoned rice and seaweed.",
         "imageURL": "src/images/noodles.png",
         "rating": 4.0,
-        "discountApplies": false
+        "discountApplies": false,
+        "price": 15
       },
       {
         "id": 5,
         "name": "Grilled Salmon",
         "description": "Freshly grilled salmon fillet with lemon and herbs.",
-        "imageURL": "src/images/pancakes",
+        "imageURL": "src/images/pancakes.png",
         "rating": 4.7,
-        "discountApplies": false
+        "discountApplies": false,
+        "price": 35
       },
       {
         "id": 6,
@@ -47,7 +52,8 @@
         "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
         "imageURL": "src/images/dancake.png",
         "rating": 4.3,
-        "discountApplies": true
+        "discountApplies": true,
+        "price": 17
       },
       {
         "id": 7,
@@ -55,7 +61,8 @@
         "description": "Refreshing smoothie with mango, banana, and yogurt.",
         "imageURL": "src/images/flat hill slingback.png",
         "rating": 4.6,
-        "discountApplies": false
+        "discountApplies": false,
+        "price": 14
       },
       {
         "id": 8,
@@ -63,7 +70,8 @@
         "description": "Crispy chicken wings glazed with barbecue sauce.",
         "imageURL": "src/images/cheese-burger.png",
         "rating": 4.4,
-        "discountApplies": true
+        "discountApplies": true,
+        "price": 9
       },
       {
         "id": 9,
@@ -71,7 +79,8 @@
         "description": "Warm chocolate cake with a gooey, molten center.",
         "imageURL": "src/images/search-pizza.png",
         "rating": 4.9,
-        "discountApplies": false
+        "discountApplies": false,
+        "price": 2
       },
       {
         "id": 10,
@@ -79,7 +88,8 @@
         "description": "Grilled panini with mozzarella, tomatoes, and basil.",
         "imageURL": "src/images/spicynoodles.png",
         "rating": 4.1,
-        "discountApplies": true
+        "discountApplies": true,
+        "price": 13
       }
     ]
 
