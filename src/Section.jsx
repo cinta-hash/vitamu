@@ -4,7 +4,7 @@ export default function Section(){
     <div className="p-4">
       <img src="/spicynoodles.png" alt="noodles"/>
     </div>
-    <div className="flex-wrap inline-block m-auto text-center pl-6">
+    <div className="flex-wrap inline-block m-auto text-center">
       <div className="block container p-10 m-auto">
             <h1 className="text-4xl font-bold text-white">Are you hungry?</h1>
             <h3 className="text-4xl font-semibold text-white">It's lunchtime somewhere anyway! Order Now!!</h3>
