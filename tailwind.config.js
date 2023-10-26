@@ -22,7 +22,7 @@ export default {
         }
       },
       animation: {
-        rotate: 'rotate 10s linear infinite',
+        rotate: 'rotate 15s linear infinite',
       }
     }
   },
