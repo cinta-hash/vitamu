@@ -1,8 +1,8 @@
 export default function Section(){
     return (
   <div className="md:mt-20 mt-12 m-auto md:grid md:grid-cols-2"> 
-    <div className="p-4 animate-rotate">
-      <img src="/spicynoodles.png" alt="noodles"/>
+    <div className="p-4">
+      <img src="/spicynoodles.png" alt="noodles" className="animate-rotate"/>
     </div>
     <div className="flex-wrap inline-block m-auto text-center">
       <div className="block container p-10 m-auto">
