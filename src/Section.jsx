@@ -1,7 +1,7 @@
 export default function Section(){
     return (
   <div className="md:mt-20 mt-12 m-auto md:grid md:grid-cols-2"> 
-    <div className="p-4">
+    <div className="p-4 animate-rotate">
       <img src="/spicynoodles.png" alt="noodles"/>
     </div>
     <div className="flex-wrap inline-block m-auto text-center">

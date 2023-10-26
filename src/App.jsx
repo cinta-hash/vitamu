@@ -4,6 +4,7 @@ import Section from "./Section"
 import Data from "./Data"
 import Footer from "./Footer"
 import Menu from "./Menu"
+import Specials from "./Specials"
 
 function App() {
   const cards = Data.map((item)=>{
@@ -27,9 +28,13 @@ function App() {
        <Header />
        <Section /> 
        <Menu />
-       <maim className="md:flex md:flex-nowrap md:gap-6 md:overflow-x-auto">
+       <section className="md:flex md:flex-nowrap md:gap-6 md:overflow-x-auto">
          {cards}
-       </maim>
+       </section>
+       <Specials />
+       <div className="md:flex md:flex-nowrap md:gap-6 md:overflow-x-auto mt-6">
+         {cards}
+       </div>
       
        <Footer />
     </div>
