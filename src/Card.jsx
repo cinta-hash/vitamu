@@ -6,17 +6,20 @@ export default function Card(props){
   //   return null
   // }
      return (
-   <div className="card container flex flex-col relative rounded-xl w-full bg-orange-500 bg-opacity-10 backdrop-blur-md">
-      <div className="relative">
-      {!props.item.discountApplies && <div className="discount absolute top-2 left-2 p-2 rounded-sm font-bold bg-white">25% off</div>}
-        <img src={props.item.imageURL} alt={props.name} />
+      <div className="flex-initial md:w-80 flex-col md:flex-row flex-wrap items-center justify-center gap-4">
+      <div className="relative mb-4 font-serif text-white text-lg bg-black bg-opacity-10 backdrop-blur-md p-2 m-2 rounded-md items-center">
+        {!props.item.discountApplies && <div className="discount absolute top-2 left-2 rounded-lg text-sm p-1 text-gray-600 font-semibold bg-white">25% off</div>}
+        <div>
+          <img src={props.item.imageURL} alt={props.name} className="w-32 h-32 rounded-lg" />
+        </div>
+        <hr />
         <h2>{props.item.name}</h2>
         <p>${props.item.price}</p>
-        <p>{props.item.rating}</p>
-        <p>{props.item.description}</p>
-        
+        <p><span className="text-orange-600"><i class="fa-solid fa-star"></i></span> {props.item.rating}</p>
+        <p>{props.item.description}</p>  
+        <button className="bg-orange-600 rounded-md p-1">order</button> 
       </div>
-   </div>
+    </div>
   )
 
 }

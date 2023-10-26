@@ -9,8 +9,8 @@ export default function Section(){
             <h1 className="text-4xl font-bold text-white">Are you hungry?</h1>
             <h3 className="text-4xl font-semibold text-white">It's lunchtime somewhere anyway! Order Now!!</h3>
              <div className="space-x-4 container">
-                <button className="mt-5 text-sm text-gray-400 md:p-2 mb-2 md:text-xl bg-white rounded-md  hover:text-white hover:bg-orange-500"><i class="fa-solid fa-motorcycle"></i> Delivery</button>
-                <button className="mt-5 text-sm text-gray-400 md:p-2 mb-2 md:text-xl bg-white rounded-md hover:text-white hover:bg-orange-500"><i class="fa-solid fa-bag-shopping"></i> pickup</button>
+                <button className="mt-5 text-sm text-gray-400 md:p-2 mb-2 md:text-lg p-1 bg-white rounded-md  hover:text-white hover:bg-orange-500"><i class="fa-solid fa-motorcycle"></i> Delivery</button>
+                <button className="mt-5 text-sm text-gray-400 md:p-2 mb-2 md:text-lg p-1 bg-white rounded-md hover:text-white hover:bg-orange-500"><i class="fa-solid fa-bag-shopping"></i> pickup</button>
              </div>
              <div className="flex flex-col items-center md:items-start">
                 <div className="flex items-center w-full h-16 relative">
@@ -24,7 +24,6 @@ export default function Section(){
                 <button className="absolute right-2 top-1/2 transform -translate-y-1/2"><i class="fa-solid fa-xmark"></i></button>
              </div>
              </div>
-           
     </div>
     </div>
     

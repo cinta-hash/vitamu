@@ -3,6 +3,7 @@ import Header from "./Header"
 import Section from "./Section"
 import Data from "./Data"
 import Footer from "./Footer"
+import Menu from "./Menu"
 
 function App() {
   const cards = Data.map((item)=>{
@@ -25,7 +26,11 @@ function App() {
     <div className="bg-yellow-500 h-full">
        <Header />
        <Section /> 
-       {cards}
+       <Menu />
+       <maim className="md:flex md:flex-nowrap md:gap-6 md:overflow-x-auto">
+         {cards}
+       </maim>
+      
        <Footer />
     </div>
   
