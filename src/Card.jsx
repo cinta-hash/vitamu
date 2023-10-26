@@ -17,7 +17,7 @@ export default function Card(props){
         <p>${props.item.price}</p>
         <p><span className="text-orange-600"><i class="fa-solid fa-star"></i></span> {props.item.rating}</p>
         <p>{props.item.description}</p>  
-        <button className="bg-orange-600 rounded-md p-1">order</button> 
+        <button className="bg-orange-500 rounded-md p-1 w-full hover:bg-orange-600">order now</button> 
       </div>
     </div>
   )

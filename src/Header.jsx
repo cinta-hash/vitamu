@@ -21,9 +21,12 @@ export default function Header(){
                 <button className="absolute right-2 top-1/2 transform -translate-y-1/2"><i class="fa-solid fa-xmark"></i></button>
              </div>
           </div>
-         
-        </div>
+          <div className="flex mr-6">
+            <h1 className="md:text-3xl text-xl text-black p-4 font-bold space-x-4 cursor-pointer"><i class="fa-solid fa-moon fa-flip-horizontal"></i></h1>   
+          </div>
+          
       </div>
+   </div>
  )
 
 }
