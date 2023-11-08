@@ -23,11 +23,7 @@ export default function Header(){
                 <input type="text" id="search-loc" placeholder="choose location" className="rounded-md shadow-md shadow-slate-300 p-2 w-full"/>
                 <button className="absolute right-2 top-1/2 transform -translate-y-1/2"><i class="fa-solid fa-xmark"></i></button>
              </div>
-          </div>
-          <div className="flex pt-2">
-            <h1 className="dark md:text-3xl text-xl text-black p-2 font-bold space-x-4 cursor-pointer"><i class="fa-solid fa-moon fa-flip-horizontal"></i></h1>
-            <h1 className="light md:text-3xl text-xl text-black p-2 font-bold cursor-pointer"><i class="fa-solid fa-sun"></i></h1>    
-          </div>     
+          </div>   
       </div>
    </div>
  )
