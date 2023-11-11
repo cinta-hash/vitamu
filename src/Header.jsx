@@ -13,15 +13,13 @@ export default function Header(){
           <div className="flex pt-2">
              <h1 className="md:text-3xl text-xl text-orange-600 p-2 text-center font-bold"><i class="fa-solid fa-magnifying-glass"></i></h1>
              <div className="m-2 hidden md:inline-flex md:relative">
-                <input type="text" id="search" placeholder="search food" className="rounded-md shadow-md shadow-slate-300 p-2 w-full"/>
-                <button className="absolute right-2 top-1/2 transform -translate-y-1/2"><i class="fa-solid fa-xmark"></i></button>
+                <input type="search" id="search" placeholder="search food" className="rounded-md shadow-md shadow-slate-300 p-2 w-full"/>     
              </div>
           </div>
           <div className="flex pt-2">
             <h1 className="md:text-3xl text-xl text-orange-600 p-2 text-center font-bold md:space-x-4"><i class="fa-solid fa-location-dot"></i></h1>
             <div className="hidden md:inline-flex md:relative md:m-2">
-                <input type="text" id="search-loc" placeholder="choose location" className="rounded-md shadow-md shadow-slate-300 p-2 w-full"/>
-                <button className="absolute right-2 top-1/2 transform -translate-y-1/2"><i class="fa-solid fa-xmark"></i></button>
+                <input type="search" id="search-loc" placeholder="choose location" className="rounded-md shadow-md shadow-slate-300 p-2 w-full"/>
              </div>
           </div>   
       </div>
